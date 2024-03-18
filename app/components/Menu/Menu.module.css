@@ -1,0 +1,31 @@
+.menu {
+  background-color: rgb(83, 80, 74);
+  width: 500px;
+  height: 1000px;
+}
+
+.menu-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.list {
+  padding-left: 50px;
+}
+
+.menu__list-url {
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-family: 'Hedvig', sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+  transition: .3s;
+  width: min-content;
+}
+
+.menu__list-url:hover {
+  color: #d87093;
+}

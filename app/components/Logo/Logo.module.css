@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'drukwide';
+  src: url(/public/fonts/drukwidecyr-medium.ttf);
+}
+
+.logo {
+  z-index: 66;
+  padding: 2vh 0 0 30px;
+}
+
+.logo h1 {
+  color: rgb(199, 73, 115);
+  font-size: 14vw;
+  font-family: 'drukwide', sans-serif;
+  transition: .1s;
+  z-index: 66;
+}
