@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html, body {
+  min-width: 100vw;
+  height: 100%;
+}
 
 html {
   scroll-behavior: smooth;
@@ -14,6 +18,10 @@ html {
 html, body {
   background-color: black;
   
+}
+
+body {
+  font-size: 14px;
 }
 
 a {

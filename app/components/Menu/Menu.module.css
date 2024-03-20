@@ -1,20 +1,19 @@
 .menu {
-  background-color: rgb(83, 80, 74);
+  background-color: rgb(37, 37, 37);
   width: 500px;
-  height: 1000px;
+  height: 95%;
+  display: flex;
+  flex-direction: column
 }
-
 .menu-content {
   height: 100%;
+  width: 500px; 
   display: flex;
+  justify-content: flex-end;
   flex-direction: column;
-  justify-content: space-between;
-  position: fixed;
+  align-items: center;
 }
 
-.list {
-  padding-left: 50px;
-}
 
 .menu__list-url {
   color: rgb(255, 255, 255);
@@ -24,8 +23,20 @@
   line-height: 1.1;
   transition: .3s;
   width: min-content;
+  padding-bottom: ;
 }
 
 .menu__list-url:hover {
   color: #d87093;
+}
+
+.menu__urls {
+  display: flex;
+  gap: 3vw;
+  align-items: flex-start;
+}
+
+.menu__urls-img {
+  width: 40px;
+
 }
